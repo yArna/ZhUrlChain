@@ -6,6 +6,17 @@
 
 ## Usege
 
+
+```shell
+$ npx jsr add @yarna/zh-url-chain
+```
+
+```ts
+import { genZhUrlChain } from "@yarna/zh-url-chain";
+
+let urlChain = genZhUrlChain("https://google.com")
+```
+
 ## 这是什么？
 
 在网站中跳转到第三方链接时，会有一个跳出提示的页面，这常被称为 「链接过滤器/Link Filter」、「链接垫片/Link Shims」、「中间页/Intermediary Page」。
